@@ -21,7 +21,7 @@
 </head>
 <body>
    <div class="sb-nav-fixed">
-       @include('layouts.inc.admin.layouts')
+       @include('layouts.inc.admin.navbar')
         <div id="layoutSidenav_content">
             @yield('content')
         </div>
