@@ -20,7 +20,12 @@
     @livewireStyles
 </head>
 <body>
-
+   <div class="sb-nav-fixed">
+       @include('layouts.inc.admin.layouts')
+        <div id="layoutSidenav_content">
+            @yield('content')
+        </div>
+   </div>
     @livewireScripts
     <script src="{{asset('asset/js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
     <script src="{{ asset('asset/js/scripts.js') }}"></script>
